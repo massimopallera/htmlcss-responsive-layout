@@ -57,6 +57,18 @@
     display: none;
 }
 
+footer{
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        li{
+            padding: .5rem;
+        }
+    }
+}
+
 #presentation{
     .container-50{
         width: 50%;
@@ -89,6 +101,8 @@
             margin-right: 1rem;
         }
     }
+
+    
 }
 
 
@@ -97,4 +111,18 @@
     /* .container-50{
         width: 30%;
     } */
+    footer{
+        .container-lg{
+            width: 100%;
+            /* margin: 0; */
+            display: flex;
+            justify-content: space-between;
+            .left-lg,.right-lg{
+                width: 50%;
+            }
+            .left-lg{
+                text-align: left;
+            }
+        }
+    }
 }
