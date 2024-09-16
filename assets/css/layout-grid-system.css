@@ -13,5 +13,9 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -.5rem;
 }
 
+.col-12{
+    width: 100%;
+}

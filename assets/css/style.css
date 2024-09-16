@@ -1,7 +1,31 @@
 :root{
-    
+
 }
 
-.debug *{
+/* debug */
+.debug *:not(section){
     border: 1px dashed black;
+}
+
+.debug header{
+    background-color: greenyellow;
+}
+.debug main{
+    #jumbotron{
+        /* background: #000; */
+    }
+}
+
+/* utilites */
+.txt-center{
+    text-align: center;
+}
+
+.py-1{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.px-1_5{
+    padding-left: .75rem;
+    padding-right: .75rem;
 }
