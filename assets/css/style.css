@@ -29,3 +29,21 @@
     padding-left: .75rem;
     padding-right: .75rem;
 }
+
+.px-2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* md */
+@media screen and (min-width:768px) {
+    .txt-l-md{
+        text-align: left;
+    }
+}
+
+
+/* lg */
+@media screen and (min-width:992px) {
+
+}
