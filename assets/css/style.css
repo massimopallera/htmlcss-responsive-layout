@@ -11,8 +11,10 @@
     background-color: greenyellow;
 }
 .debug main{
-    #jumbotron{
-        /* background: #000; */
+    .social-container{
+        width: 2rem;
+        aspect-ratio: 1;
+        border-radius: 50%;
     }
 }
 
@@ -24,6 +26,10 @@
 .py-1{
     padding-top: .5rem;
     padding-bottom: .5rem;
+}
+.py-3{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 .px-1_5{
     padding-left: .75rem;
@@ -39,6 +45,10 @@
 @media screen and (min-width:768px) {
     .txt-l-md{
         text-align: left;
+    }
+
+    /* ~ to fix */ 
+    .social-container{
     }
 }
 
