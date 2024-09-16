@@ -16,6 +16,12 @@
         aspect-ratio: 1;
         border-radius: 50%;
     }
+
+    .banner{
+        width: 100%;
+        background-color: aqua;
+        height: 70px;
+    }
 }
 
 /* utilites */
@@ -41,6 +47,22 @@
     padding-right: 1rem;
 }
 
+
+/* mobile */
+#adv{
+    display: none;
+}
+
+#presentation{
+    .img-container{
+        width: 50%;
+        margin: auto;
+        img{
+            width: 100%;
+        }
+    }
+}
+
 /* md */
 @media screen and (min-width:768px) {
     .txt-l-md{
@@ -49,6 +71,16 @@
 
     /* ~ to fix */ 
     .social-container{
+    }
+
+    #adv{
+        display: block;
+    }
+
+    #presentation{
+        img{
+            float: left;
+        }
     }
 }
 
