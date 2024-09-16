@@ -47,6 +47,10 @@
     padding-right: 1rem;
 }
 
+.lh-1{
+    line-height: 1.5rem;
+}
+
 
 /* mobile */
 #adv{
@@ -54,7 +58,7 @@
 }
 
 #presentation{
-    .img-container{
+    .container-50{
         width: 50%;
         margin: auto;
         img{
@@ -78,8 +82,11 @@
     }
 
     #presentation{
-        img{
+        .fl-md-l{
             float: left;
+        }
+        .mr-md-1{
+            margin-right: 1rem;
         }
     }
 }
@@ -87,5 +94,7 @@
 
 /* lg */
 @media screen and (min-width:992px) {
-
+    /* .container-50{
+        width: 30%;
+    } */
 }
