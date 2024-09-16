@@ -1,13 +1,30 @@
 :root{
+    --page-title-color: #f8951a;
+    --recipe-name-color: #5d4c78;
+    --bg-primary: #f6f5f3;
+    --bg-footer: #7c69a4;
+    --bg-secondary: #fff;
 
 }
 
 *{
     font-family: Montserrat, Helvetica Neue, sans-serif;
 }
+img{
+    width: 100%;
+}
 
 h1{
     font-family: "Nerko One", cursive;
+    color: var(--page-title-color);
+}
+
+body{
+    background-color: var(--bg-primary);
+}
+
+header{
+    background-color: var(--bg-secondary);
 }
 
 
@@ -38,6 +55,10 @@ h1{
     text-align: center;
 }
 
+.mt-1{
+    margin-top: 1rem;
+}
+
 .py-1{
     padding-top: .5rem;
     padding-bottom: .5rem;
@@ -55,15 +76,63 @@ h1{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.py-2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 .lh-1{
     line-height: 1.5rem;
 }
+.bg-secondary{
+    background-color: var(--bg-secondary);
+}
+.bg-footer{
+    background-color: var(--bg-footer);
+    color: white;
+}
+.divider{
+    margin-bottom: 1rem;
+    border: 1px solid var(--page-title-color);
+    width: 8rem;
+}
 
 
-/* mobile */
-#adv{
+.md-on{
     display: none;
+}
+
+    /* mobile */
+.pres{
+    font-size: 1.5rem;
+}
+
+main{
+    #adv{
+        display: none;
+    }
+    
+}
+
+
+
+main{
+    #jumbotron{
+        .recipe{
+            color: var(--recipe-name-color);
+            font-weight: 900;
+        }
+        .cat{
+            color:rgb(163, 163, 163);
+            font-weight: 600;
+            font-size: .7rem;
+        }        
+        ul{
+            list-style: none;
+            line-height: 1.5rem;
+            font-size: .8rem;
+        }
+    }
 }
 
 footer{
@@ -94,9 +163,22 @@ footer{
         text-align: left;
     }
 
-    /* ~ to fix */ 
-    .social-container{
+    .md-on{
+        display: inline;
     }
+
+    main {
+        .d-flex-md{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+    }
+
+    /* ~ to fix */ 
+    /* .social-container{
+    } */
 
     #adv{
         display: block;
@@ -120,6 +202,16 @@ footer{
     /* .container-50{
         width: 30%;
     } */
+
+    main{
+        .card{
+            height: 100%;
+            .d-block-lg{
+                display: block;
+            }
+        }
+    }
+
     footer{
         .container-lg{
             width: 100%;
