@@ -26,7 +26,9 @@ body{
 header{
     background-color: var(--bg-secondary);
 }
-
+a{
+    color: white;
+}
 
 /* debug */
 .debug *:not(section){
@@ -96,7 +98,9 @@ header{
     border: 1px solid var(--page-title-color);
     width: 8rem;
 }
-
+.fs-sm{
+    font-size: small;
+}
 
 .md-on{
     display: none;
@@ -107,12 +111,11 @@ header{
     font-size: 1.5rem;
 }
 
-main{
+
     #adv{
         display: none;
     }
     
-}
 
 
 
@@ -182,6 +185,7 @@ footer{
 
     #adv{
         display: block;
+        width: 100%;
     }
 
     #presentation{
