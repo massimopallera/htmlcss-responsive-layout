@@ -250,12 +250,23 @@ footer{
                 display: block;
             }
         }
-        .d-flex.lg{
+        .social-container{
+            width: calc(100% / 5 -2rem);
+            span{
+                padding-left: 5px;
+                text-transform: uppercase;
+            }
+        }
+        .d-flex-lg{
             display: flex;
+            align-items: center;
         }
         .d-inline-lg{
-            display: block;
-            font-size: .6rem;
+            display: inline;
+            font-size: .8rem;
+        }
+        .rounded{
+            padding: .6rem 1rem;
         }
     }
 
