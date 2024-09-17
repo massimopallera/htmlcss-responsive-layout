@@ -143,6 +143,14 @@ i.fa-instagram{
     display: none;
 }
 
+.bx-sh{
+    box-shadow: 8px 6px 6px 0px #98989833;
+}
+
+.txt-sh{
+    text-shadow: 1px 0 0 grey;
+}
+
 main{
     #jumbotron{
         .recipe{
@@ -186,6 +194,11 @@ footer{
 
 /* md */
 @media screen and (min-width:768px) {
+
+    .bx-sh-0-lg{
+        box-shadow: 0 0 0;
+    }
+
     .txt-l-md{
         text-align: left;
     }
